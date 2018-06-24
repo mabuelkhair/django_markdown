@@ -51,7 +51,8 @@ Installation
 
 **Django markdown** should be installed using pip: ::
 
-    pip install git+https://github.com/mabuelkhair/django_markdown
+    pip install -e git+https://github.com/mabuelkhair/django_markdown#egg=django_markdown
+
 
 
 Setup
