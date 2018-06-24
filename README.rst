@@ -1,4 +1,4 @@
-Django-Markdown v. 0.8.4
+Forked from Django-Markdown v. 0.8.4 to support latest Django version
 ########################
 
 .. _description:
@@ -42,7 +42,7 @@ Requirements
 - python >= 2.7
 - django >= 1.6
 - markdown
-
+- works fine with django 1.11 and 1.10 (tested). It should work with django 2.0 but not fully tested yet let me know if you have any problem.
 
 .. _installation:
 
@@ -51,7 +51,7 @@ Installation
 
 **Django markdown** should be installed using pip: ::
 
-    pip install django-markdown
+    pip install git+https://github.com/mabuelkhair/django_markdown
 
 
 Setup
